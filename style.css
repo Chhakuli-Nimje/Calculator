@@ -1,0 +1,29 @@
+body{
+    margin-top: 200px;
+    margin-left: 650px;
+}
+#Calculator{
+    border: 1px solid rgb(219, 245, 246);
+    border-radius: 5px;
+    width:200px;
+    text-align: center;
+    background-image:url(https://cdn.pixabay.com/photo/2017/08/04/10/32/background-2579710_640.jpg);
+}
+#display{
+    margin: 10px;
+    width: 85%;
+    font-size:30px;
+}
+.button{
+width: 45px;
+height: 45px;
+margin: 3px;
+background-color: black;
+color: white;
+}
+#button-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
